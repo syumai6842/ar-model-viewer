@@ -4,9 +4,6 @@ const CACHE_NAME = 'ar-app-cache-v2';
 // 開発モードフラグ - 開発中はtrueに設定
 const DEV_MODE = true;
 const urlsToCache = [
-
-  'https://aframe.io/releases/1.4.0/aframe.min.js',
-  'https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js'
 ];
 
 // インストール時に既存のキャッシュをクリアして新しいリソースをキャッシュ

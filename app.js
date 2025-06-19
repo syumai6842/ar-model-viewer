@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
         instructions.classList.add('hidden');
     });
 
-
     // オフライン検出
     window.addEventListener('online', function() {
         console.log('オンラインに戻りました');
